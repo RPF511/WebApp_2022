@@ -1,0 +1,21 @@
+* {
+  box-sizing: border-box;
+}
+
+img {
+  width: 100%;
+  height: auto;
+}
+
+.belt_background{
+  animation: animate 25s linear infinite;
+  display: block;
+  overflow: hidden;
+}
+
+
+.header {
+  background-color: #9933cc;
+  color: #ffffff;
+  padding: 15px;
+}

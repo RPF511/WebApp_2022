@@ -1,0 +1,69 @@
+.bgimg-1,
+.bgimg-2,
+.bgimg-3,
+.bgimg-4 {
+    position: relative;
+    opacity: 0.8;
+    transition: opacity .5s;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    pointer-events: none;
+
+}
+
+.bgimg-1 {
+    background-image: url("img/handdrip_wallpaper_00.jpg");
+    min-height: 95%;
+}
+
+.bgimg-2 {
+    background-image: url("img/cofffeebean_00.jpg");
+    min-height: 70%;
+}
+
+.bgimg-3 {
+    background-image: url("img/coffee_belt_00.jpg");
+    min-height: 70%;
+}
+
+.bgimg-4 {
+    background-image: url("img/handdrip_00.jpg");
+    min-height: 95%;
+}
+
+.caption {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: #000;
+    pointer-events: auto;
+}
+.caption a{
+    text-decoration: none;
+}
+
+.caption span.border {
+
+    color: #fff;
+    padding: 18px;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+
+.bgimg-1:hover,
+.bgimg-2:hover,
+.bgimg-3:hover,
+.bgimg-4:hover{
+    opacity : .95;
+}
+
+h3 {
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    font: 20px "Lato", sans-serif;
+    color: #111;
+}
