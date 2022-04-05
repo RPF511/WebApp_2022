@@ -4,7 +4,8 @@
 .bgimg-1,
 .bgimg-2,
 .bgimg-3,
-.bgimg-4 {
+.bgimg-4,
+.bgimg-6{
     position: relative;
     opacity: 0.8;
     transition: opacity .5s;
@@ -60,7 +61,8 @@
 .bgimg-1:hover,
 .bgimg-2:hover,
 .bgimg-3:hover,
-.bgimg-4:hover{
+.bgimg-4:hover,
+.bgimg-6:hover{
     opacity : .97;
 }
 
