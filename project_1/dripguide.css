@@ -1,0 +1,15 @@
+@import url("style_scroll.css");
+
+
+.bgimg-1 {
+    background-image: url("img/dripguide_intro.png");
+    min-height: 95%;
+}
+
+
+p {
+    margin-left : 15%;
+    margin-right : 15%;
+    text-align: left;
+    align-content: center;
+}
