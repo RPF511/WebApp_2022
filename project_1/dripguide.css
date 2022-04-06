@@ -31,7 +31,6 @@
     background-size: cover;
     pointer-events: none;
     min-height: 300%;
-    
 }
 
 .bgimg-6 {
@@ -45,4 +44,58 @@ p {
     margin-right : 15%;
     text-align: center;
     align-content: center;
+}
+
+.caption span.border {
+    color: #fff;
+    padding: 18px;
+    font-size: 30px;
+    letter-spacing: 10px;
+}
+
+.caption p{
+    color: #fff;
+    padding: 12px;
+    margin-left : 0;
+    margin-right : 0;
+    letter-spacing: 3px;
+    font-size:20px;
+}
+#pour{
+    top:8%;
+    text-align : right;
+    width : 12%;
+    left:50%;
+}
+#pour1,
+#pour2,
+#pour3{
+    margin:5%;
+    padding : 20px;
+    width : 25%;
+}
+
+#pour1{
+    top : 12%;
+    text-align:right;
+    left: 60%;
+}
+#pour1 p,
+#pour3 p{
+    text-align : right;
+}
+
+#pour2{
+    top : 26%;
+    text-align: left;
+    left: 5%;
+}
+#pour2 p{
+    text-align : left;
+}
+
+#pour3{
+    top : 40%;
+    text-align:right;
+    left: 60%;
 }

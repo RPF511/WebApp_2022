@@ -1,0 +1,27 @@
+@import url("style_scroll.css");
+
+
+.bgimg-1 {
+    background-image: url("img/ethiopia.png");
+    min-height: 85%;
+}
+
+.bgimg-2 {
+    background-image: url("img/hawai.png");
+    min-height: 85%;
+}
+
+.bgimg-3 {
+    background-image: url("img/panama.png");
+    min-height: 85%;
+}
+
+
+
+
+p {
+    margin-left : 15%;
+    margin-right : 15%;
+    text-align: center;
+    align-content: center;
+}

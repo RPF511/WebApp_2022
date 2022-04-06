@@ -1,21 +1,13 @@
-* {
-  box-sizing: border-box;
-}
+@import url("style_scroll.css");
 
-img {
-  width: 100%;
-  height: auto;
-}
-
-.belt_background{
-  animation: animate 25s linear infinite;
-  display: block;
-  overflow: hidden;
-}
-
-
-.header {
-  background-color: #9933cc;
-  color: #ffffff;
-  padding: 15px;
+.bgimg{
+    background-image : url("img/coffee_belt_2.png");
+    width : 100%;
+    height : 100%;
+    opacity: 0.9;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    min-height: 100%;
 }

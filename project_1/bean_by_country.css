@@ -1,0 +1,100 @@
+@import url("style_scroll.css");
+
+
+.bgimg-1{
+    position: relative;
+    opacity: 0.9;
+    transition: opacity .5s;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    pointer-events: none;
+
+    background-image: url("img/diamond_mountain.jpeg");
+    min-height: 90%;
+}
+.caption{
+    height:100%;
+    opacity: 0;
+}
+.caption::after{
+    clear: both;
+    display: table;
+    z-index: 100;
+}
+
+.caption span.border {
+
+    color: black;
+    padding: 18px;
+    font-size: 30px;
+    letter-spacing: 10px;
+    display:block;
+    width:30%;
+    margin-left:5%;
+    margin-top:0%;
+    padding-top : 0%;
+    top : 0%;
+    left : 40%;
+}
+.caption p{
+    color: black;
+    padding: 10px;
+    margin-left : 0;
+    margin-right : 0;
+    letter-spacing: 3px;
+    font-size:20px;
+    text-align: left;
+    width: 40%;
+    display:block;
+    
+}
+#description{
+    width:40%;
+    display: block;
+    float:left;
+}
+
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.row{
+    text-align: center;
+}
+
+#point{
+    display: block;
+    float:left;
+    width:20%;
+    margin-left:25%;
+    margin-bottom: 0px;
+}
+
+#coffee_body{
+    display: block;
+    float:left;
+    width:20%;
+    margin:10%;
+    margin-bottom: 0px;
+    left : 50%;
+}
+
+#recipe{
+    display: block;
+    float:left;
+    text-align: left;
+    width: 30%;
+    left:50%;
+}
+
+.bgimg-1:hover .caption{
+    opacity : 1;
+}
+
+.bgimg-1:hover{
+    opacity : .6;
+}
+
